@@ -1,0 +1,16 @@
+include:
+  - component: "$CI_SERVER_FQDN/it-erben/components/linters/lychee-lint@1.3.0"
+  - component: "$CI_SERVER_FQDN/it-erben/components/linters/yaml-lint@1.3.0"
+  - component: "$CI_SERVER_FQDN/it-erben/components/linters/markdown-lint@1.3.0"
+
+stages:
+  - lint
+  - verify
+
+verify:maven:
+  image: maven:3.9.9-eclipse-temurin-21
+  stage: verify
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+  script:
+    - mvn -B -V verify

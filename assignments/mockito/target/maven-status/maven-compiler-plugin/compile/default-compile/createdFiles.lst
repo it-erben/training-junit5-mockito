@@ -1,0 +1,5 @@
+tech/erben/InventoryProcessingException.class
+tech/erben/InventoryService.class
+tech/erben/InsufficientStockException.class
+tech/erben/InventoryRepository.class
+tech/erben/WarehouseService.class

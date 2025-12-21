@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tech.erben.mockmethod.DemoMockMethodTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s -- in tech.erben.mockmethod.DemoMockMethodTest

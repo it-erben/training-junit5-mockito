@@ -1,0 +1,12 @@
+tech/erben/mockmethod/DemoMockMethodTest.class
+tech/erben/mockannotation/DemoMockAnnotationTest.class
+tech/erben/staticmocking/DemoStaticMockingTest.class
+tech/erben/staticmocking/FinalClassMockingTest.class
+tech/erben/staticmocking/FinalMethodClass.class
+tech/erben/staticmocking/FinalMethodMockingTest.class
+tech/erben/staticmocking/FinalClass.class
+tech/erben/staticmocking/StaticMethodExample.class
+tech/erben/mockmethod/DemoMockMethodTest$CustomAnswer.class
+tech/erben/argumentmatching/DemoArgumentMatchingTest.class
+tech/erben/captormethod/DemoCaptorMethodTest.class
+tech/erben/captorannotation/DemoCaptorAnnotationTest.class
