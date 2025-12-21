@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tech.erben.advanced.parameterized.DemoParameterizedTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s -- in tech.erben.advanced.parameterized.DemoParameterizedTest

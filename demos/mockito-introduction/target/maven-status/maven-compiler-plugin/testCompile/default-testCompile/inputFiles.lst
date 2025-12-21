@@ -1,0 +1,8 @@
+/Users/aerben/repositories/it-erben/gfu/junit5-mockito/demos/mockito-introduction/src/test/java/tech/erben/captormethod/DemoCaptorMethodTest.java
+/Users/aerben/repositories/it-erben/gfu/junit5-mockito/demos/mockito-introduction/src/test/java/tech/erben/staticmocking/DemoStaticMockingTest.java
+/Users/aerben/repositories/it-erben/gfu/junit5-mockito/demos/mockito-introduction/src/test/java/tech/erben/staticmocking/FinalMethodMockingTest.java
+/Users/aerben/repositories/it-erben/gfu/junit5-mockito/demos/mockito-introduction/src/test/java/tech/erben/captorannotation/DemoCaptorAnnotationTest.java
+/Users/aerben/repositories/it-erben/gfu/junit5-mockito/demos/mockito-introduction/src/test/java/tech/erben/staticmocking/FinalClassMockingTest.java
+/Users/aerben/repositories/it-erben/gfu/junit5-mockito/demos/mockito-introduction/src/test/java/tech/erben/mockannotation/DemoMockAnnotationTest.java
+/Users/aerben/repositories/it-erben/gfu/junit5-mockito/demos/mockito-introduction/src/test/java/tech/erben/argumentmatching/DemoArgumentMatchingTest.java
+/Users/aerben/repositories/it-erben/gfu/junit5-mockito/demos/mockito-introduction/src/test/java/tech/erben/mockmethod/DemoMockMethodTest.java
