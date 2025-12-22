@@ -20,11 +20,11 @@ dependencies {
     implementation(libs.guava)
 
     // Use JUnit Jupiter for testing.
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.3")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.14.1")
     // JUnit Platform Suite dependency
-    testImplementation("org.junit.platform:junit-platform-suite:1.8.2")
-    testImplementation("org.junit.platform:junit-platform-suite-api:1.8.2")
-    testImplementation("org.junit.platform:junit-platform-suite-engine:1.8.2")
+    testImplementation("org.junit.platform:junit-platform-suite:1.14.1")
+    testImplementation("org.junit.platform:junit-platform-suite-api:1.14.1")
+    testImplementation("org.junit.platform:junit-platform-suite-engine:1.14.1")
 
 }
 
