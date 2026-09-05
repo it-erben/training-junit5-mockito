@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  lint:
+    uses: it-erben/ci/.github/workflows/lint.yml@1.0.0
+  maven:
+    uses: it-erben/ci/.github/workflows/maven.yml@1.0.0
+    with:
+      java-version: "21"
