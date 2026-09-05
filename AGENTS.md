@@ -125,8 +125,9 @@ Die Demos sind nach Thema in Packages geschnitten (`tech.erben.captormethod`,
 - **Es gibt keine Lösungen.** Kein `solutions/`-Baum, kein
   `*-solution`-Modul. Die Assignments bringen je eine Testklasse als
   Ausgangspunkt mit; ein Referenzstand existiert nicht.
-- **`mvn verify` läuft in der CI nur in Merge Requests**
-  (`if: $CI_MERGE_REQUEST_ID`). Ein direkter Push auf `main` baut nichts.
+- **`mvn verify` läuft auf GitLab nur in Merge Requests**
+  (`if: $CI_MERGE_REQUEST_ID`). Ein direkter Push auf `main` baut dort
+  nichts.
 - **Kein Release und kein Deploy.** `.gitlab-ci.yml` bindet nur die drei
   Linter-Komponenten plus den Maven-Job ein. Der Scope einer Commit-Nachricht
   routet hier nichts.
@@ -137,3 +138,7 @@ Die Demos sind nach Thema in Packages geschnitten (`tech.erben.captormethod`,
   Modulverzeichnis findet sie nicht; sie liegen unter
   `src/test/java/tech/erben/<thema>/`. Vor dem Anlegen eines neuen READMEs
   prüfen, ob dort schon eins liegt.
+- **Die CI läuft auf zwei Plattformen.** `.gitlab-ci.yml` bindet die
+  GitLab-Komponenten ein, `.github/workflows/ci.yml` ruft `lint.yml` und
+  `maven.yml` aus `it-erben/ci`. Auf GitHub laufen beide auch bei einem Push
+  auf `main`.
